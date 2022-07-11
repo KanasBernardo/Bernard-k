@@ -286,6 +286,9 @@ hr{
 }
 
 @media (max-width: 500px){
+    .showcase{
+        height: 550px;
+    }
     .new-card{
         grid-template-columns: 1fr;
     }
