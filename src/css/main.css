@@ -230,6 +230,9 @@ hr{
     text-align: center;
     padding-bottom: 20px;
 }
+.show{
+    display: none;
+}
 @media (max-width: 800px){
 
     .menu-btn{
