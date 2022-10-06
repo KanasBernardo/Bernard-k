@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="src/img/icono.png">
+    <link rel="icon" href="src/img/b.png">
     <title>Bernard-Canas</title>
     <!--Font Osaweme-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -24,16 +24,16 @@
             <img src="./src/img/icono.png" alt="Logo" class="nav-brand">
             <ul class="nav-menu show">
                 <li>
-                    <a href="#" id="Bernardo">[Bernardo Canas]</a>
-                </li>
-                <li>
-                    <a href="#dequeTrata">[De que Trata]</a>
+                    <a href="#" id="Bernardo">[Home]</a>
                 </li>
                 <li>
                     <a href="#proyectos">[Proyectos Trabajados]</a>
                 </li>
                 <li>
                     <a href="#sobreMi">[Sobre Mí]</a>
+                </li>
+                <li>
+                    <a href="#Habilidades">[Habilidades]</a>
                 </li>
                 <li>
                     <a href="#contacto">[Contactame]</a>
@@ -54,18 +54,10 @@
         <!--Showcase-->
         <header class="showcase">
             <h2>Alert ("Hola Mundo");</h2>
-            <p>¡Hola!, Bienvenido(a) mi nombre es <a href="#" class="paraNombre">Bernardo Emiliano Canas Calán</a> diseñador y creador de esta página, aquí te muestro un poco de mi habilidad en el desarrollo web, mostrándote lo que puedes lograr o llegar a hacer con la programación, utilizando las tecnologías adecuadas</p>
+            <p>¡Hola!, Bienvenido(a) mi nombre es <a class="paraNombre">Bernardo Emiliano Canas Calán</a> diseñador y creador de esta página, aquí te muestro un poco de mi habilidad en el desarrollo web, mostrándote lo que puedes lograr o llegar a hacer con la programación, utilizando las tecnologías adecuadas</p>
 
-            <a href="#proyectos" class="btn">Ver Proyectos <i class="fas fa-angle-double-right"></i></a>
+            <a href="#proyectos" class="btn_h">Ver Proyectos <i class="fas fa-angle-double-right"></i></a>
         </header>
-        
-        <section class="cards-banner-one" id="dequeTrata">
-            <div class="content">
-                <h2>¿De que trata esta Pagina Web?</h2>
-                <p>Esta pagina tiene como objetivo mostrar los proyectos que he realizado con los conocimientos que he adquirido cursando la carrera de <a href="#" class="paraNombre">Perito en Informática</a>, este proyecto lleva como nombre Proyecto Kanas donde doy a conocer los dos proyectos que Realice</p>
-                <a href="#proyectos" class="btn">Empezar a ver <i class="fas fa-angle-double-right"></i></a>
-            </div>
-        </section>
 
         <div class="footer" id="proyectos">
             <h3>PROYECTOS TRABAJADOS</h3>
@@ -76,113 +68,139 @@
                 <img src="./src/img/uno.PNG" alt="">
                 <h3>Agenda LocalStorage</h3>
                 <p>Este proyecto esta consta de una agenda que funciona como un contador de días, almacenando los datos en memoria local, es decir que se eliminaran los datos hasta que borres la cache de tu navegador o eliminando lo agendado.</p>
-                <a href="https://age-five.vercel.app">Puedes verlo Aquí <i class="fas fa-angle-double-right"></i></a>
+                <a href="https://age-five.vercel.app" target="_blank">Puedes verlo Aquí <i class="fas fa-angle-double-right"></i></a>
             </div>
         
             <div>
                 <img src="./src/img/dos.PNG" alt="">
                 <h3>Shooting Colors</h3>
                 <p>Este es un juego que consiste en dispara y esquivar disparos de los enemigos, juego que cree con Js, HTML y CSS, esta versión es para jugarla sin audio (solo para PC)</p>
-                <a href="https://colores-kanas.vercel.app/">Jugar Ahora <i class="fas fa-angle-double-right"></i></a>
+                <a href="https://colores-kanas.vercel.app/" target="_blank">Jugar Ahora <i class="fas fa-angle-double-right"></i></a>
             </div>
         
             <div>
                 <img src="./src/img/dos.PNG" alt="">
                 <h3>Shooting Colors 2.0</h3>
                 <p>Este es un juego que consiste en dispara y esquivar disparos de los enemigos, juego que cree con Js, HTML y CSS, esta versión cuenta con música integrada para que la experiencia de juego sea más alocada (solo para PC)</p>
-                <a href="https://bernard-kanas-kalan.000webhostapp.com/">Jugar Ahora <i class="fas fa-angle-double-right"></i></a>
+                <a href="https://bernard-kanas-kalan.000webhostapp.com/" target="_blank">Jugar Ahora <i class="fas fa-angle-double-right"></i></a>
             </div>
         
+            <div>
+                <img src="./src/img/tres.PNG" alt="">
+                <h3>OBC gamers</h3>
+                <p>Obc gamers este es un proyecto del curso organización de empresas donde se nos solicitaba realizar una empresa, entonces como el curso lo solicitaba decidí tomar la iniciativa de crear una página donde mostrar nuestros productos como empresa (creadora de videojuegos) página creada con HTML5, CSS y Js, PD: Es una simulación de una tienda online</p>
+                <a href="https://obc-gamers.vercel.app/" target="_blank">Visitar pagina <i class="fas fa-angle-double-right"></i></a>
+            </div>
 
+            <div>
+                <img src="./src/img/cuatro.PNG" alt="">
+                <h3>kanas-links</h3>
+                <p>Kanas-links es una aplicación creada con Node Js, Express HTML, CSS dicha aplicación consiste en una agenda donde podrás guardar tus enlaces favoritos para visitarlos cuando tu desees, dicha aplicación cuenta con una sección donde podremos crearnos una cuenta en la cual podremos gestionar nuestros enlaces.</p>
+                <a>Aun no disponible <i class="fas fa-angle-double-right"></i></a>
+            </div>
+
+            <div>
+                <img src="./src/img/cinco.PNG" alt="">
+                <h3>App con Node Js, Vite y Ejs</h3>
+                <p>Esta aplicación la cree con el fin de aprender los fundamento principales de Node js y de como trabajar con express y también entender el funcionamiento del mismo, también con el fin de aprender a como desplegar dicha app en HEROKU</p>
+                <a href="https://prueba-node-js-2022.herokuapp.com/" target="_blank">Ver Ahora <i class="fas fa-angle-double-right"></i></a>
+            </div>
         </div>
 
         <section class="cards-banner-two" id="sobreMi">
              <div class="content">
                 <h2>Hola me llamo Bernardo</h2>
-                <p>soy un estudiante el cual cursa el ultimo grado de la carrera de Informática, un programador que destaca más en el ámbito web, soy una persona a la cual le encanta el mundo de la programación y con muchas ganas de seguir aprendiendo y haci aplicar mis conocimientos en el aria laboral o ayudando a los demás si es que lo necesitan</p>
-                <a href="" class="btn">Volver al Inicio <i class="fas fa-angle-double-right"></i></a>
+                <p>Soy un estudiante el cual cursa el ultimo grado de la carrera de Informática, un programador que destaca más en el ámbito web, soy una persona a la cual le encanta el mundo de la programación y con muchas ganas de seguir aprendiendo y haci aplicar mis conocimientos en el aria laboral o a los que soliciten de mis servicios</p><br>
+                <a href="https://www.mediafire.com/file/bita50ipie5npmz/Bernardo_CV.pdf/file">
+                    <div class="button">
+                        <div class="button-wrapper">
+                            <div class="text">Descargar</div>
+                            <span class="icon">
+                                CV
+                            </span>
+                        </div>
+                    </div>
+                </a>
              </div>
         </section>
 
-        <section class="social" id="contacto">
-            <p>Bernardo Canas</p>
-            <div class="links">
-                <a href="https://discord.gg/ePSsS3K7gH"><i class="fab fa-discord"></i></a>
-                <a href="https://twitter.com/BernardKanas"><i class="fab fa-twitter"></i></a>
-                <a href="https://www.linkedin.com/in/bernard-kanas-92305a236/"><i class="fab fa-linkedin"></i></a>
-                <a href="https://www.instagram.com/bernard_k89/"><i class="fab fa-instagram"></i></a> 
+        <br>
+
+        <!--
+        <section class="cards-banner-one" id="Habilidades">
+            <div class="content">
+                <h2>Habilidades</h2>
+                <p>Esta pagina tiene como objetivo mostrar los proyectos que he realizado con los conocimientos que he adquirido cursando la carrera de <a href="#" class="paraNombre">Perito en Informática</a>, este proyecto lleva como nombre Proyecto Kanas donde doy a conocer los dos proyectos que Realice</p>
+                <a href="#proyectos" class="btn btn_h">Empezar a ver <i class="fas fa-angle-double-right"></i></a>
+            </div>
+        </section>-->
+
+        <div class="footer" id="Habilidades">
+            <h3>HABILIDADES</h3>
+        </div>
+        <section class="about container">
+
+            <figure class="about__img about__img--left">
+                <img src="./src/img/dev.svg" class="about__picture">
+            </figure>
+
+
+            <div class="about__text" id="tecno">
+                <h2 class="subtitle">Lenguajes y tecnologías que domino!</h2>
+                <h3>HTML5</h3><br>
+                <h3>CSS Bootstrap</h3><br>
+                <h3>PHP</h3><br>
+                <h3>JAVA</h3><br>
+                <h3>JavaScript</h3><br>
+                <h3>MySQL</h3><br>
+                <h3>C++</h3><br> <br>
             </div>
         </section>
 
-
     </div>
-    <div class="footer-links" id="final">
-        <div class="footer-container">
-            <ul>
-                <li>
-                    <a href="#final">
-                        <h3>Tecnologías Utilizadas</h3>
+    <br>
+    <br>
+    <br>
+    <footer class="pie-pagina" id="contacto">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a>
+                        <img src="https://cdn.discordapp.com/attachments/1026280127992168458/1026731256462983208/b.png" alt="Logo de SLee Dw">
                     </a>
-                </li>
-                <li>
-                    <a href="https://openwebinars.net/blog/que-es-html5/">HTML5</a>
-                </li>
-                <li>
-                    <a href="https://openwebinars.net/blog/que-es-css3/">CSS3</a>
-                </li>
-                <li>
-                    <a href="https://walkerstone.blogspot.com/2016/11/que-es-css5.html">CSS5</a>
-                </li>
-                <li>
-                    <a href="https://developer.mozilla.org/es/docs/Web/JavaScript">JavaScript</a>
-                </li>
-            </ul>
-
-            <ul>
-                <li>
-                    <a href="#final">
-                        <h3>Menu</h3>
-                    </a>
-                </li>
-                <li>
-                    <a href="#Bernardo">Inicio</a>
-                </li>
-                <li>
-                    <a href="#dequeTrata">De que Trata</a>
-                </li>
-                <li>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>BERNARDO CANAS</h2>
+                <div class="box_names">
+                    <a href="#Bernardo">Home</a>
+                    <a href="#sobreMi">Sobre mí</a>
                     <a href="#proyectos">Proyectos Trabajados</a>
-                </li>
-                <li>
-                    <a href="#sobreMi">Sobre Mí</a>
-                </li>
-            </ul>
-
-            <ul>
-                <a href="#final">
-                    <h3>Contacto</h3>
-                </a>
-                <li>
-                    <a href="#final">Bernardo Canas</a>
-                </li>
-                <li>
-                    <a href="#final">Programador Sanmartineco</a>
-                </li>
-                <li>
-                    <a href="#final">Informático</a>
-                </li>
-                <li>
-                    <a href="tel:+502 41 97 12 67">(+502) 4197 1267</a>
-                </li>
-            </ul>
+                </div>
+            </div>
+            <div class="box">
+                <h2>ACERCA DE</h2>
+                <div class="box_names">
+                    <a>Bernardo Canas</a>
+                    <a>Programador Sanmartineco</a>
+                    <a>Informático</a>
+                    <a href="tel:+502 55 87 07 24">(+502) 4197 1267</a>
+                </div>
+            </div>
+            <div class="box">
+                <h2>SIGUEME</h2>
+                <div class="red-social">
+                    <a href="https://www.instagram.com/bernard_k89/" class="fab fa-instagram" target="_blank"></a>
+                    <a href="https://twitter.com/BernardKanas" class="fab fa-twitter" target="_blank"></a>
+                    <a href="https://discord.gg/R6kZfTD8xQ" class="fab fa-discord" target="_blank"></a>
+                    <a href="https://www.linkedin.com/in/bernard-kanas-92305a236" class="fab fa-linkedin" target="_blank"></a>
+                </div>
+            </div>
         </div>
-    </div>
-
-    <div class="footer">
-        <h3>Bernardo Canas Copyright<br>Todos lo derechos Reservados</h3>
-    </div>
-
+        <div class="grupo-2">
+            <small>&copy; 2022 <b>Bernardo Canas</b> - Todos los Derechos Reservados</small>
+        </div>
+    </footer>
 </body>
     <script src="./src/js/main.js" type="module"></script>
-
 </html>
