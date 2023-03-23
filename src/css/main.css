@@ -63,6 +63,7 @@ ul{
     flex: 1;
     margin-left: 20px;
 }
+
 .footer{
     background: #2f3640;
     color: #fff7f7bd;
@@ -70,6 +71,13 @@ ul{
     padding: 20px 0;
     text-align: center;
     padding-bottom: 20px;
+    transition: 2s !important;
+}
+
+.footer:hover{
+    margin: 0;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.733), 0 0 15px rgba(255, 255, 255, 0.849), 0 0 30px rgba(255, 255, 255, 0.89);
+    transition: 2s !important;
 }
 
 .menu-btn{
@@ -269,7 +277,11 @@ hr{
 .about__picture{
     max-width: 80%;
 }
-
+.about__text h3:hover{
+    margin: 0;
+    text-shadow: 0 0 6px rgba(219, 128, 255, 0.973), 0 0 17px rgb(159, 79, 170), 0 0 30px rgb(210, 112, 255);
+    transition: 1s !important;
+}
 /*codigo para el video*/
 .videoo{
     position: relative;
