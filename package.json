@@ -13,5 +13,8 @@
     "vite": "^2.9.14"
   },
   "devDependencies": {},
-  "description": ""
+  "description": "",
+    "engines": {
+    "node": "18.x"
+  }
 }
